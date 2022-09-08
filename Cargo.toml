@@ -3,5 +3,23 @@ name = "h3-lorawan-regions"
 version = "0.1.0"
 edition = "2018"
 
+[features]
+default = ["compact", "nocompact", "AS923_1", "AS923_1B", "AS923_2", "AS923_3", "AS923_4", "AU915", "CN470", "EU433", "EU868", "IN865", "KR920", "RU864", "US915"]
+compact = []
+nocompact = []
+AS923_1 = []
+AS923_1B = []
+AS923_2 = []
+AS923_3 = []
+AS923_4 = []
+AU915 = []
+CN470 = []
+EU433 = []
+EU868 = []
+IN865 = []
+KR920 = []
+RU864 = []
+US915 = []
+
 [build-dependencies]
 byteorder = "1"
